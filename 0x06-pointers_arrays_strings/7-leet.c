@@ -18,8 +18,8 @@ char *leet(char *s)
 		{
 			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 			{
-				*(s + count) = number[i];
-			break;
+				*(s + count) = numbers[i];
+				break;
 			}
 		}
 		count++;
