@@ -5,7 +5,7 @@
  * @s: string
  * Return: the length of a string.
  */
-int _stlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 		return (0);
@@ -14,11 +14,11 @@ int _stlen_recursion(char *s)
 }
 
 /**
- * compaator - compares each character of the string.
+ * comparator - compares each character of the string.
  * @s: string
  * @n1: smalllest iterator.
- * @n2 biggest iterator.
- * Return; .
+ * @n2: biggest iterator.
+ * Return: .
  */
 int comparator(char *s, int n1, int n2)
 {
